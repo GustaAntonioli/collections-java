@@ -32,7 +32,7 @@ class metodosList {
 //      Para criar uma lista um array dinâmico numérico tipo duble.
 //      ArrayList<Double> notas = new ArrayList<>(); 
 
-System.out.println("Crie uma lista e adicione as sete notas: ");
+        System.out.println("Crie uma lista e adicione as sete notas: ");
 
         List<Double> notas = new ArrayList<>(); // Diamond Operator
         notas.add(7.0); //Posição [0]
@@ -107,14 +107,30 @@ System.out.println("Crie uma lista e adicione as sete notas: ");
             System.out.println(notas);
 
             System.out.println("Confira se a lista está vazia: " + notas.isEmpty());
-
+               
             /*
             Para você: Resolva esses exercícios utilizando os métodos da implementação LinkedList:
             System.out.println("Crie uma lista chamada notas2 " +
             "e coloque todos os elementos da list Arraylist nessa nova lista: ");
             System.out.println("Mostre a primeira nota da nova lista sem removê-lo: ");
             System.out.println("Mostre a primeira nota da nova lista removendo-o: ");
-*/
-        
+            */
+
+            System.out.println("Crie uma lista chamada notas2 e coloque todos os elementos da list Arraylist nessa nova lista: ");    
+            List<Double> notas2 = new ArrayList<>();
+            notas2.add(7.0); //Posição [0]
+            notas2.add(8.5); //Posição [1]
+            notas2.add(9.3); //Posição [2]
+            notas2.add(5.0); //Posição [3]
+            notas2.add(7.0); //Posição [4]
+            notas2.add(0.0); //Posição [5]
+            notas2.add(3.6); //Posição [6]
+            System.out.println("Mostre a primeira nota da nova lista sem removê-lo: ");
+            System.out.println(notas2.toString());
+            notas2.indexOf(0d);
+
+            System.out.println("Mostre a primeira nota da nova lista removendo-o: ");
+            notas2.remove(0);
+            System.out.println(notas2);
      }
 }
