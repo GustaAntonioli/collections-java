@@ -118,13 +118,13 @@ class metodosList {
 
             System.out.println("Crie uma lista chamada notas2 e coloque todos os elementos da list Arraylist nessa nova lista: ");    
             List<Double> notas2 = new ArrayList<>();
-            notas2.add(7.0); //Posição [0]
-            notas2.add(8.5); //Posição [1]
-            notas2.add(9.3); //Posição [2]
-            notas2.add(5.0); //Posição [3]
-            notas2.add(7.0); //Posição [4]
+            notas2.add(6.0); //Posição [0]
+            notas2.add(7.5); //Posição [1]
+            notas2.add(8.3); //Posição [2]
+            notas2.add(4.0); //Posição [3]
+            notas2.add(6.0); //Posição [4]
             notas2.add(0.0); //Posição [5]
-            notas2.add(3.6); //Posição [6]
+            notas2.add(2.6); //Posição [6]
             System.out.println("Mostre a primeira nota da nova lista sem removê-lo: ");
             System.out.println(notas2.toString());
             notas2.indexOf(0d);
