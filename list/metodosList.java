@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 
 class metodosList {
@@ -117,7 +118,7 @@ class metodosList {
             */
 
             System.out.println("Crie uma lista chamada notas2 e coloque todos os elementos da list Arraylist nessa nova lista: ");    
-            List<Double> notas2 = new ArrayList<>();
+            List<Double> notas2 = new LinkedList<>();
             notas2.add(6.0); //Posição [0]
             notas2.add(7.5); //Posição [1]
             notas2.add(8.3); //Posição [2]
