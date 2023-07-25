@@ -17,7 +17,7 @@ class exemploGato {
             add(new gato( "Jon", 18 , "preto"));
             add(new gato( "Simba", 6 , "tigrado"));
             add(new gato( "Jon", 12 , "amarelo"));
-        }};
+        }}; 
 
         System.out.println("--\tOrdem de Inserção\t---");
         System.out.println(meusGatos);
